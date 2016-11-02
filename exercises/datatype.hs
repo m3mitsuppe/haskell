@@ -19,3 +19,17 @@ x = (+)
 f1 xs = w `x` 1
         where w = length xs
 
+id' :: a -> a
+-- es gibt nur eine mögliche Implementierung
+-- für diese Signatur
+id' x = x
+
+const' :: a -> a -> a
+-- es gibt zwei mögliche Implementierungen:
+-- erstes oder zweites Argument zurückgeben
+const' x y = x
+-- doof x y = y 
+
+what :: a -> b -> b
+
+what x y = y
