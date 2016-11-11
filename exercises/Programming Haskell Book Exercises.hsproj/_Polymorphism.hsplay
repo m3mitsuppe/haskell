@@ -1,0 +1,23 @@
+-- Haskell Playground 1.0
+let p = Person False
+printPerson p
+
+settleDown Blah
+settleDown Woot
+
+s1
+
+let r = Rocks 
+
+
+-- let phew = Papu "chases" True
+
+let truth = Papu (Rocks "what") (Yeah True)
+
+print truth
+
+equalityForall truth truth
+
+freud' 45
+
+sigmund
