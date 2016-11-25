@@ -1,5 +1,7 @@
 module Polymorphism where
   
+import Data.List (sort)
+  
 data Person = Person Bool deriving Show
 
 printPerson :: Person -> IO ()
@@ -49,5 +51,20 @@ myX = 1 :: Int
 sigmund :: a -> Int
 sigmund x = myX
 
-sigmund' :: Num a => a -> a
-sigmund' x = myX
+-- sigmund' :: Num a => a -> a
+-- sigmund' x = myX
+
+--jung :: Ord a => [a] -> a
+jung :: [Int] -> Int
+jung xs = head (sort xs)
+
+-- young :: [Char] -> Char
+young :: Ord a => [a] -> a
+young xs = head (sort xs)
+
+chk :: Eq b => (a -> b) a -> b -> Bool
+chk fnc x y = 
+
+
+
+

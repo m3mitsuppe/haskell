@@ -21,3 +21,7 @@ equalityForall truth truth
 freud' 45
 
 sigmund
+
+sort
+
+head [1,2,3]
