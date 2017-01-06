@@ -1,0 +1,25 @@
+-- Haskell Playground 1.0
+let t = " This is a test sentence"
+let r = dropWhile (==' ') t
+let s = takeWhile (/=' ') t
+
+r
+s
+
+let q = takeWhile (/=' ') . dropWhile (==' ')$ t
+q
+
+myWords t
+myWords "Another one but without leading    space  "
+
+mySplitAt ' ' "Toller Satz zum Auftrennen in wörter"
+
+mySqr
+
+[x | x<-mySqr, rem x 2 == 0]
+
+[(x, y) | x <- mySqr, y <- mySqr, x < 50, y > 50]
+
+[(x,y) | x <- mySqr, y <- myCube]
+length [(x,y) | x <- mySqr, y <- myCube, x<50,y<50]
+

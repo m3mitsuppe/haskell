@@ -4,21 +4,29 @@ cabal-version: 1.11
 build-type: Simple
 license: AllRightsReserved
 stability: experimental
-x-ghc-framework-version: 7.10.3-5.18-1
-x-last-ide-version: HfM1.3.0
+x-ghc-framework-version: 7.10.3-5.18-2
+x-last-ide-version: HfM1.3.1
 Executable ProgrammingHaskellBookExercises
   main-is: Programming_Haskell_Book_Exercises.hs
   buildable: True
   build-depends:
       base -any
   other-modules:
+      Ch_07_arith
+      Adhoc
+      Ch_07_final
+      Artithbroken
+      Ch_08_ex
+      Ch_09_enum
+      Ch_08_dividedby
+      Ch_07_01_lambda
+      Kwon1
       Eq_inst
       Kwon2
+      Kwon3
       D_type
+      Sing
       Polymorphism
       Letwhere
-      Artithbroken
+      Ch_09_symm
       Datatype
-      Kwon1
-      Kwon3
-      Sing
