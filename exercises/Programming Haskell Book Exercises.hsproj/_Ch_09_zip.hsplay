@@ -1,0 +1,6 @@
+-- Haskell Playground 1.0
+myzip [1,2,3] [9,8,7]
+myzip "abcdef" "yza"
+myzip ['a', 'c', 'x'] [1..10]
+myzip [] [1,2,3]
+myzip "wooh" []

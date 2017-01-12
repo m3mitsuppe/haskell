@@ -14,3 +14,5 @@ mySplitAt sp text
           
 mySqr = [x^2 | x <- [1..5]]
 myCube = [x^3 | x <- [1..5]]
+
+myFilter = filter (\x -> not $ elem x ["the", "a", "an"]) . words 

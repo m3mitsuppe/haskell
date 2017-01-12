@@ -5,7 +5,7 @@ build-type: Simple
 license: AllRightsReserved
 stability: experimental
 x-ghc-framework-version: 7.10.3-5.18-2
-x-last-ide-version: HfM1.3.1
+x-last-ide-version: HfM1.3.2
 Executable ProgrammingHaskellBookExercises
   main-is: Programming_Haskell_Book_Exercises.hs
   buildable: True
@@ -24,9 +24,10 @@ Executable ProgrammingHaskellBookExercises
       Eq_inst
       Kwon2
       Kwon3
+      Ch_09_zip
       D_type
-      Sing
       Polymorphism
       Letwhere
       Ch_09_symm
       Datatype
+      Sing
