@@ -1,4 +1,4 @@
-module Flippy where
+module Ch_08_ex where
     
 -- p. 444 currying
 
@@ -27,7 +27,7 @@ recSum x = go 1 x
 -- Variante: runterzählen statt hoch
 recSum3 :: (Eq a, Num a) => a -> a
 recSum3 1 = 1
-recSum3 x = x + recSum2 (x-1)
+recSum3 x = x + recSum3 (x-1)
 
 
 -- Warum Guards? Machen hier eigentlich keinen Sinn, weil

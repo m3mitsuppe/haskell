@@ -15,19 +15,21 @@ Executable ProgrammingHaskellBookExercises
       Ch_07_arith
       Adhoc
       Ch_07_final
+      Ch_09_Upper
       Artithbroken
       Ch_08_ex
       Ch_09_enum
       Ch_08_dividedby
       Ch_07_01_lambda
-      Kwon1
+      Ch_09_Cipher
       Eq_inst
+      Kwon1
       Kwon2
-      Kwon3
       Ch_09_zip
       D_type
-      Polymorphism
+      Kwon3
       Letwhere
       Ch_09_symm
       Datatype
+      Polymorphism
       Sing

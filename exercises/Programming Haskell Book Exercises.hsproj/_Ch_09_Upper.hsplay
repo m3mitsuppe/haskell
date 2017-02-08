@@ -1,0 +1,14 @@
+-- Haskell Playground 1.0
+onlyUpper "HbEfLrLxO,"
+
+capFirst "hallo"
+capFirst ""
+capFirst "Hallo"
+
+capAll "sdfEekE"
+capAll ""
+capAll "Was soll der Dreck?"
+
+getCapFirst "Was"
+getCapFirst "holla"
+getCapFirst ""
