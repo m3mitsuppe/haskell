@@ -1,33 +1,12 @@
 -- Haskell Playground 1.0
-ord 'a'
-ord 'z'
-ord 'A'
-ord 'Z'
-chr 91
+char_ranges
 
 ceasar "Eric" 3
 ceasar "Mal sehen, was da bei rumkommt" 5
-
 ceasar "Z" 1
 
 unceasar "Hulf" 3
-unceasar "Rfq xjmjs  bfx if gjn wzrptrry" 5
+unceasar "Rfq xjmjs, bfx if gjn wzrptrry" 5
 
-shiftByFromTo 'a' ('a','z') 3
-shiftByFromTo 'A' ('A','Z') 3
-
-shiftByFromTo 'z' ('a','z') 3
-shiftByFromTo 'Z' ('A','Z') 3
-
-shiftByFromTo 'B' ('A', 'Z') (-1)
-shiftByFromTo 'Z' ('A', 'Z') (-1)
-shiftByFromTo 'b' ('a', 'z') (-5)
-
-(ord 'z') - 26 + 3
-ord 'z'
-ord 'A'
-chr 99
-ord '}'
-
-(ord 'z') - 3
-
+unceasar "a" 8
+unceasar "w" 2
