@@ -1,0 +1,18 @@
+-- Haskell Playground 1.0
+digitalRoot 0
+digitalRoot 8
+digitalRoot 10
+digitalRoot 11
+digitalRoot 19
+digitalRoot 20
+digitalRoot 23
+digitalRoot 234
+digitalRoot 2341
+digitalRoot 1003
+digitalRoot 88888888899999
+
+
+12 `mod` 10
+12 `div`10
+
+10 `mod` 10
