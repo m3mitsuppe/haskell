@@ -1,0 +1,10 @@
+-- Haskell Playground 1.0
+powersOfTwo 0
+powersOfTwo 1
+powersOfTwo 2
+powersOfTwo 5
+
+pOT2 0
+pOT2 1
+pOT2 5
+pOT2 10
