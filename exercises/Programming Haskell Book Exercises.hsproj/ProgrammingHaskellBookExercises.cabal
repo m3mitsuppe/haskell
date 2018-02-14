@@ -4,32 +4,33 @@ cabal-version: 1.11
 build-type: Simple
 license: AllRightsReserved
 stability: experimental
-x-ghc-framework-version: 7.10.3-6.29-1
-x-last-ide-version: HfM1.4.0
+x-ghc-framework-version: 8.0.2-8.9-3
+x-last-ide-version: HfM1.5.1
 Executable ProgrammingHaskellBookExercises
   main-is: Programming_Haskell_Book_Exercises.hs
   buildable: True
   build-depends:
       base -any
   other-modules:
-      Ch_07_arith
-      Adhoc
-      Ch_07_final
-      Ch_09_Upper
+      Ch_07_01_lambda
+      Kwon3
+      Polymorphism
+      Ch_09_symm
       Artithbroken
+      Kwon2
+      Ch_07_arith
+      Ch_09_zip
+      Ch_09_Standard
+      Sing
+      Eq_inst
+      Ch_07_final
+      D_type
       Ch_08_ex
       Ch_09_enum
-      Ch_08_dividedby
-      Ch_07_01_lambda
-      Ch_09_Cipher
-      Eq_inst
-      Kwon1
-      Kwon2
-      Ch_09_zip
-      D_type
-      Kwon3
+      Adhoc
       Letwhere
-      Ch_09_symm
+      Kwon1
+      Ch_09_Upper
       Datatype
-      Polymorphism
-      Sing
+      Ch_09_Cipher
+      Ch_08_dividedby
